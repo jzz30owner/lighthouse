@@ -98,9 +98,9 @@ edition = "2021"
 
 [workspace.dependencies]
 account_utils = { path = "common/account_utils" }
-alloy-consensus = "0.3.0"
+alloy-consensus = "1.0.17"
 alloy-primitives = { version = "0.8", features = ["rlp", "getrandom"] }
-alloy-rlp = "0.3.4"
+alloy-rlp = "0.3.12"
 anyhow = "1"
 arbitrary = { version = "1", features = ["derive"] }
 async-channel = "1.9.0"
